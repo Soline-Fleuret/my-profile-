@@ -1,0 +1,133 @@
+body {
+	background-color: #BEA8A7;
+	color: #775144;
+	font-family: Helvetica;
+	font-weight: bolder;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px 20px;
+	border-radius: 30px;
+}
+
+.profile-picture {
+	border-radius: 50%;
+}
+
+.text-intro {
+	margin-top: 50px;
+	font-size: 25px;
+	color: #775144;
+	font-family: Helvetica;
+	font-weight: bolder;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px 20px;
+	border-radius: 30px
+}
+
+h1 {
+	color: #2A0800;
+	font-family: Helvetica;
+	font-weight: 100;
+	font-size:  60px;
+}
+
+h2{
+	color: black;
+	display: inline-block;
+	font-family: sans-serif;
+	font-weight: 30;
+	font-size: 35px;
+	border: 2px white solid;
+	text-decoration: underline;
+}
+
+h3{
+	
+	color: black;
+	display: inline-block;
+	font-family: sans-serif;
+	font-weight: 30;
+	font-size: 35px;
+	border: 2px white solid;
+	text-decoration: underline;
+
+}
+
+h4{
+	color: black;
+	display: inline-block;
+	font-family: sans-serif;
+	font-weight: 30;
+	font-size: 35px;
+	border: 2px white solid;
+	text-decoration: underline;
+}
+
+
+}
+
+.social_links{
+	font-family: Helvetica;
+	font-weight: 30;
+	font-size: 40px;
+	text-align: center;
+	t;
+}
+
+.fa-linkedin{
+	color: #2A0800;
+	font-size: 50px;
+}
+
+.fa-facebook{
+	color: #2A0800;
+	font-size: 50px;
+}
+
+.btn-email{
+	display: inline-block;
+	background-color: #2A0800;
+	color: white;
+	border-radius: 10px;
+	border: 4px ;
+	transition: 0.3s;
+	text-align: center;
+	font-size: 28px;
+	padding: 20px;
+	margin: 5px;
+	width: 200px;
+
+}
+
+ul {
+	padding-left: 0;
+}
+li {
+	list-style: none;
+}
+.social-networks > li {
+	display: inline;
+} 
+
+/* Custom design with class*/
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+.card-design {
+	background-color: white;
+	padding : 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0,1);
+	border-radius: 4px;
+	margin:  20px 0px;
+	text-align: center;
+}
+
+@media screen and (max-width: 720px) {
+	.container {
+		max-width: 100%;
+	}
+}
